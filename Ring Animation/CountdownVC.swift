@@ -60,7 +60,7 @@ class CountdownVC: UIViewController {
     
     @objc func continueButtonPressed(){
                 
-        timerClass = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(timeForLabel), userInfo: nil, repeats: true)
+        
         
     }
     
@@ -89,14 +89,11 @@ class CountdownVC: UIViewController {
     
     @objc func didTapAnimateButton() {
         if let doubleValue = Double(timeTextfield.text!) {
-            //showing time info on the label
-            counter = doubleValue
-            timerClass = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(timeForLabel), userInfo: nil, repeats: true)
             //Animate
             
             let animation = CABasicAnimation(keyPath: "strokeEnd")
             animation.toValue = 1
-            animation.duration = doubleValue
+            animation.duration = doubleValue + 3
             animation.isRemovedOnCompletion = false
             animation.fillMode = .forwards
             shape.add(animation, forKey: "animationxx")
