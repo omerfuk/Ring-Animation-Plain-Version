@@ -13,6 +13,8 @@
 		DE4DD2AB2874D7E500C0C084 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4DD2A92874D7E500C0C084 /* Main.storyboard */; };
 		DE4DD2AD2874D7E700C0C084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4DD2AC2874D7E700C0C084 /* Assets.xcassets */; };
 		DE4DD2B02874D7E700C0C084 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4DD2AE2874D7E700C0C084 /* LaunchScreen.storyboard */; };
+		DE8DA96D2876F52D006FD2B9 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8DA96C2876F52D006FD2B9 /* HomeVC.swift */; };
+		DED4E43D2877018A00590765 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED4E43C2877018A00590765 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		DE4DD2AC2874D7E700C0C084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE4DD2AF2874D7E700C0C084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE4DD2B12874D7E700C0C084 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE8DA96C2876F52D006FD2B9 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		DED4E43C2877018A00590765 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				DE4DD2AC2874D7E700C0C084 /* Assets.xcassets */,
 				DE4DD2AE2874D7E700C0C084 /* LaunchScreen.storyboard */,
 				DE4DD2B12874D7E700C0C084 /* Info.plist */,
+				DE8DA96C2876F52D006FD2B9 /* HomeVC.swift */,
+				DED4E43C2877018A00590765 /* Extensions.swift */,
 			);
 			path = "Ring Animation";
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DED4E43D2877018A00590765 /* Extensions.swift in Sources */,
 				DE4DD2A82874D7E500C0C084 /* CountdownVC.swift in Sources */,
+				DE8DA96D2876F52D006FD2B9 /* HomeVC.swift in Sources */,
 				DE4DD2A42874D7E500C0C084 /* AppDelegate.swift in Sources */,
 				DE4DD2A62874D7E500C0C084 /* SceneDelegate.swift in Sources */,
 			);
