@@ -133,12 +133,14 @@ class HomeVC: UIViewController {
         let tappedEggStyle:String
         
         let countdownVC = CountdownVC()
+        let foodListVC = FoodListVC()
         
         switch tappedImageView {
             
         case foodListImageView:
             print("Food list image View tapped")
-            makeAlert(title: "FOODLIST", message: "FoodList ImageView Tapped")
+            
+            navigationController?.pushViewController(foodListVC, animated: true)
             
             break
             
