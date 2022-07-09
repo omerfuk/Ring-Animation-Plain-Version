@@ -21,7 +21,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9L1-T7-n0C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-591.304347826087" y="113.83928571428571"/>
+            <point key="canvasLocation" x="-467" y="114"/>
         </scene>
         <!--CountdownVC-->
         <scene sceneID="tne-QT-ifu">
